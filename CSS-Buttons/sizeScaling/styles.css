@@ -1,0 +1,22 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cool-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .cool-button:hover {
+    transform: scale(1.1); 
+  }
+  
